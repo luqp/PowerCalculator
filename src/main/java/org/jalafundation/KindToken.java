@@ -1,0 +1,12 @@
+package org.jalafundation;
+
+public enum KindToken {
+    ADDITIONTOKEN,
+    SUBTRACTIONTOKEN,
+    MULTIPLICATIONTOKEN,
+    DIVISIONTOKEN,
+    NUMBERTOKEN,
+    WHITESPACETOKEN,
+    ENDTOKEN,
+    INVALIDTOKEN
+}
