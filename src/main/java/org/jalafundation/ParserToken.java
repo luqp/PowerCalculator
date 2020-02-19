@@ -9,8 +9,7 @@ public class ParserToken {
     private int position;
 
     public ParserToken(String text) {
-
-        List<Token> tokens = new ArrayList<Token>();
+        this.tokens = new ArrayList<>();
         LexerText lexer = new LexerText(text);
         Token token;
         do {
